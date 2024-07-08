@@ -16,6 +16,10 @@ export default {
 		// 	apiKey: env.OPENAI_API_KEY,
 		// 	baseURL: "https://gateway.ai.cloudflare.com/v1/{account_id}/{gateway_id}/openai"
 		// });
+		console.log("process GOOGLE AI API KEY:");
+		console.log(process.env.GOOGLE_AI_API_KEY);
+		console.log("GOOGLE AI API KEY:");
+		console.log(env.GOOGLE_AI_API_KEY);
 
 		try {
 			// Access your API key as an environment variable (see "Set up your API key" above)
